@@ -121,3 +121,61 @@ a {
   object-fit: cover;
   margin-bottom: 20px;
 }
+
+.sobre {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  align-items: center;
+  max-width: 1200px;
+}
+
+.img-sobre {
+  height: 400px;
+  background-color: #161616;
+  border-radius: 10px;
+}
+
+.conteudo-sobre h2 {
+  margin-bottom: 30px;
+}
+
+.conteudo-sobre p {
+  margin-bottom: 20px;
+  color: #bbb;
+}
+
+.habilidades {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.tag-habilidades {
+  background-color: rgba(77, 124, 241, 0.2);
+  color: #4d7cfe;
+  padding: 8px 15px;
+  border-radius: 20px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.botoes-contato {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.botao-contato {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 15px 25px;
+  border-radius: 10px;
+  font-weight: 500;
+}
